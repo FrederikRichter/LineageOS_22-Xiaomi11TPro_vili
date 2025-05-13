@@ -48,7 +48,7 @@
         JOBS_NETWORK = "8";
         JOBS_CHECKOUT = "$(nproc --all)";
 
-        LINEAGE-ANROID-REV = "3e32007684ec54f30bc7b6ef917e7c96bcce2267";
+        LINEAGE-ANROID-REV = "88f76658b2497b7ee02d2af605fabd7baea443f4";
         # LINEAGE-ANROID-REV = "lineage-22.2";
 
         sourceScript = pkgs.writeTextFile {
