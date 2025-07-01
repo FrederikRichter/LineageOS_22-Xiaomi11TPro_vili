@@ -6,11 +6,11 @@
     
     # Device-specific repositories with shallow cloning, change if desired
     device-sm8350-common = {
-      url = "github:AOSP-for-vili/device_xiaomi_sm8350-common/lineage-22.2?shallow=1";
+      url = "github:AOSP-for-vili/device_xiaomi_sm8350-common/derp?shallow=1";
       flake = false;
     };
     kernel-sm8350 = {
-      url = "github:AOSP-for-vili/android_kernel_xiaomi_sm8350/lineage-22.1?shallow=1";
+      url = "github:AOSP-for-vili/android_kernel_xiaomi_sm8350/lineage-22.2?shallow=1&submodules=1";
       flake = false;
     };
     hardware-xiaomi = {
@@ -30,7 +30,7 @@
       flake = false;
     };
     device-vili = {
-      url = "github:FrederikRichter/device_xiaomi_vili/lineage-22.2?shallow=1";
+      url = "github:FrederikRichter/device_xiaomi_vili/derp?shallow=1";
       flake = false;
     };
   };
@@ -48,7 +48,7 @@
         JOBS_NETWORK = "8";
         JOBS_CHECKOUT = "$(nproc --all)";
 
-        LINEAGE-ANROID-REV = "8ccdcc145d6742cbad8cfb4048d114e5da67353b";
+        LINEAGE-ANROID-REV = "dd7da3358e187ee1f2efc56553c2f100741817f8";
         # LINEAGE-ANROID-REV = "lineage-22.2";
 
         sourceScript = pkgs.writeTextFile {
@@ -109,6 +109,9 @@
 
             # make files writeable since they are copied from nix store
             chmod -R u+w ./*
+
+            # remove vendorsetup.sh
+            # rm ./device/xiaomi/vili/vendorsetup.sh
           '';
           executable = true;
           destination = "/bin/setup_source";

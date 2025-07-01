@@ -3,16 +3,16 @@
     "device-sm8350-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1745003208,
-        "narHash": "sha256-mGpGYrpBvTtt8HzGv+abMbCMFNhSjU7g7Hya5yMYn30=",
+        "lastModified": 1750621801,
+        "narHash": "sha256-uKNlE7fPL1n4RM94eLw7+61IcrL7nYbwjUrJ+pAMm+g=",
         "owner": "AOSP-for-vili",
         "repo": "device_xiaomi_sm8350-common",
-        "rev": "bd696d160a38644bb8869db6e2e3385382217047",
+        "rev": "715498a217df05b69e4dde7455b545027b722f8c",
         "type": "github"
       },
       "original": {
         "owner": "AOSP-for-vili",
-        "ref": "lineage-22.2",
+        "ref": "derp",
         "repo": "device_xiaomi_sm8350-common",
         "type": "github"
       }
@@ -20,16 +20,16 @@
     "device-vili": {
       "flake": false,
       "locked": {
-        "lastModified": 1744328269,
-        "narHash": "sha256-b9zkDkYV9cy0mUJfp2Ih2O92+AHm5p5sSrRiWmPdyVU=",
+        "lastModified": 1751362551,
+        "narHash": "sha256-iOGCvUTS5hOKujwMIyW3WLNq46XLTznmoVgxpDz8nog=",
         "owner": "FrederikRichter",
         "repo": "device_xiaomi_vili",
-        "rev": "623f3155fa946e913c4779119c0d8670059609a9",
+        "rev": "4175fe80df16eaf537b15d83719bb5416013b726",
         "type": "github"
       },
       "original": {
         "owner": "FrederikRichter",
-        "ref": "lineage-22.2",
+        "ref": "derp",
         "repo": "device_xiaomi_vili",
         "type": "github"
       }
@@ -55,11 +55,11 @@
     "hardware-xiaomi": {
       "flake": false,
       "locked": {
-        "lastModified": 1747517626,
-        "narHash": "sha256-zvW3HwtDCzCTJXP+x0jP3TTuh4AV2qmpKjUYEk1Cl54=",
+        "lastModified": 1750538902,
+        "narHash": "sha256-Hi9EUkDvfpl/ag5oFogpCwlPjEbb+Tz1iYVRPdNLTzA=",
         "owner": "AOSP-for-vili",
         "repo": "android_hardware_xiaomi",
-        "rev": "9507f6512ffcd52e9243dbdc25ffedf8523fadc0",
+        "rev": "ffb57460733aff32ae1b968dac6d9575d67b9a37",
         "type": "github"
       },
       "original": {
@@ -72,27 +72,27 @@
     "kernel-sm8350": {
       "flake": false,
       "locked": {
-        "lastModified": 1744602975,
-        "narHash": "sha256-O+vm2msu3zWeuD6bzcN70CMt4NtwfxdKEW/RP35pHKg=",
+        "lastModified": 1750620719,
+        "narHash": "sha256-P09MN4mLzh1UQ1FRST4+Ol3wb3gyxXMcoAJoK694nDE=",
         "owner": "AOSP-for-vili",
         "repo": "android_kernel_xiaomi_sm8350",
-        "rev": "58a735a1179cbbb7192135bbff078804245e331d",
+        "rev": "71dff51d44c35d21f8ea8634ff6da3cd6b821d4a",
         "type": "github"
       },
       "original": {
         "owner": "AOSP-for-vili",
-        "ref": "lineage-22.1",
+        "ref": "lineage-22.2",
         "repo": "android_kernel_xiaomi_sm8350",
         "type": "github"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1747744144,
-        "narHash": "sha256-W7lqHp0qZiENCDwUZ5EX/lNhxjMdNapFnbErcbnP11Q=",
+        "lastModified": 1751271578,
+        "narHash": "sha256-P/SQmKDu06x8yv7i0s8bvnnuJYkxVGBWLWHaU+tt4YY=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "2795c506fe8fb7b03c36ccb51f75b6df0ab2553f",
+        "rev": "3016b4b15d13f3089db8a41ef937b13a9e33a8df",
         "type": "github"
       },
       "original": {
@@ -133,11 +133,11 @@
     "vendor-sm8350-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1745002820,
-        "narHash": "sha256-iTGmCbQlVb61Vi+O5rZFUHn9WvAhBRVHp75C6LIDm5k=",
+        "lastModified": 1748720798,
+        "narHash": "sha256-hV6I/C4kjMsLYj5uJSEIGwIJWLZ03pcZudrm26JVu3s=",
         "owner": "AOSP-for-vili",
         "repo": "vendor_xiaomi_sm8350-common",
-        "rev": "637c231f115fa0ff325d9a195e71f1f834c333bf",
+        "rev": "cce0363b8fb648ddaebe22021d64e11daf524efe",
         "type": "github"
       },
       "original": {
@@ -150,11 +150,11 @@
     "vendor-vili": {
       "flake": false,
       "locked": {
-        "lastModified": 1744881548,
-        "narHash": "sha256-jmAGRR6wUDDMdzoUDo1yZeG/+TAeMjwBashILmRa0/I=",
+        "lastModified": 1750620351,
+        "narHash": "sha256-lrN+uT9CZlCYa3FTCYVSEu+bUUz6LUR5DX2aCdLfF8U=",
         "owner": "AOSP-for-vili",
         "repo": "vendor_xiaomi_vili",
-        "rev": "87ddff76e369e961becd0cee3dcaef7f35446101",
+        "rev": "c0dbba48ae64ac41094a7c087c1e8517eac83f7c",
         "type": "github"
       },
       "original": {
@@ -167,11 +167,11 @@
     "vendor-vili-firmware": {
       "flake": false,
       "locked": {
-        "lastModified": 1744491580,
-        "narHash": "sha256-9IdlKot9YkVcOQNmFJzRrfo/qcb8vR+RrOcPSE2GqJg=",
+        "lastModified": 1749865395,
+        "narHash": "sha256-5CW7MVw5j7Ttc1Od821J2KMdyCiGLD4FrifhpLdGl3g=",
         "owner": "0mar99",
         "repo": "vendor-xiaomi-vili-firmware",
-        "rev": "c7daa7dd2205d8ab86043ca6f6207580cb0e6f2d",
+        "rev": "618cfbba8e03f26fa39b74ff9bc14eef8d94bbde",
         "type": "gitlab"
       },
       "original": {
