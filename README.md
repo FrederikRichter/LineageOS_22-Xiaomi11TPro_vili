@@ -11,16 +11,16 @@ Everything tested and confirmed by now
 this includes:
 - NFC
 - BT/WIFI
-- LTE/4G
+- LTE/4G/5G(SA)
 - 120Hz
 - 120W hypercharge
 - high polling rate
 - Fingerprint reader
-- Dolby (HDR/Equalizer)
+- Dolby (Equalizer)
 
 ### Quirks/Bugs
-- Some LineageOS bugs
 - Device Health Monitor Not Displaying Battery Status Correctly in Settings
+- The Lineage Equalizer needs to be uninstalled 
 
 When setting up the sources some clones fail because google rate limits. If that happens just enter Source Directory after the script finished and run
 ```bash
@@ -37,7 +37,7 @@ everything one could need (recovery, boot.img etc) should be in the out director
 
 Keep in mind to have at least 32gb of ram and 16gb of swap plus >300gb of disk space.
 
-Tested in WSL 2 with 32gb of ram, 24gb of swap and Ryzen 5 7600x. build plus source setup took about 3h.
+
 
 #### Updating Source git repos
 ```bash
